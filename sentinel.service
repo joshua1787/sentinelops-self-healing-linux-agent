@@ -1,0 +1,6 @@
+[Unit]
+Description=SentinelOps Self-Healing Linux Agent
+
+[Service]
+Type=oneshot
+ExecStart=/opt/sentinelops/sentinel.sh

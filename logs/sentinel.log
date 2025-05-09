@@ -1,0 +1,18 @@
+2025-05-08 14:05:01 ✅ Disk usage OK (22%)
+2025-05-08 14:05:01 ✅ cron is running.
+2025-05-08 14:05:01 ✅ Memory usage OK (19.4%)
+2025-05-08 14:05:01 🔴 Simulated disk failure for GPT test
+2025-05-08 14:05:02 📦 Raw GPT Response: {
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "This simulated disk failure was created to test how the system reacts to high disk pressure scenarios. The self-healing agent detected it and responded accordingly."
+      }
+    }
+  ]
+}
+2025-05-08 14:05:02 💬 AI Explanation: This simulated disk failure was created to test how the system reacts to high disk pressure scenarios. The self-healing agent detected it and responded accordingly.
+2025-05-08 14:10:01 ✅ Disk usage OK (23%)
+2025-05-08 14:10:01 ✅ cron is running.
+2025-05-08 14:10:01 ✅ Memory usage OK (20.1%)

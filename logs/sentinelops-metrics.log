@@ -1,0 +1,10 @@
+2025-05-08 14:00:02 📊 Metrics: {'cpu': 12.5, 'memory': 18.7, 'disk': 22.1}
+2025-05-08 14:02:03 📊 Metrics: {'cpu': 13.0, 'memory': 18.9, 'disk': 22.0}
+2025-05-08 14:04:05 📊 Metrics: {'cpu': 63.0, 'memory': 19.1, 'disk': 22.0}
+2025-05-08 14:04:05 ⚠️ Sudden CPU jump: 63.0% (Δ 50.0%)
+2025-05-08 14:04:06 💬 AI Explanation: A sudden spike in CPU usage was detected, potentially caused by a short-lived high-load process or resource contention. Monitor for further spikes to determine if this is transient or sustained.
+2025-05-08 14:06:01 📊 Metrics: {'cpu': 16.4, 'memory': 19.2, 'disk': 22.3}
+2025-05-08 14:08:02 📊 Metrics: {'cpu': 95.0, 'memory': 19.5, 'disk': 22.5}
+2025-05-08 14:08:02 ⚠️ Sudden CPU jump: 95.0% (Δ 78.6%)
+2025-05-08 14:08:03 💬 AI Explanation: A near 100% CPU spike suggests a heavy background task, script execution, or runaway process. Consider inspecting running processes and logs for unusual activity.
+2025-05-08 14:10:00 📊 Metrics: {'cpu': 17.1, 'memory': 19.8, 'disk': 22.7}
