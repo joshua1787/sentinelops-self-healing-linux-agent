@@ -6,14 +6,14 @@ SentinelOps is a lightweight, AI-augmented Linux agent that provides real-time s
 ---
 
 ## Features
-- Disk usage monitoring and auto-log cleanup
-- Memory spike detection and safe process killing
-- Service health checks and auto-restart (e.g., cron, nginx)
-- Slack webhook integration for alerts
-- OpenRouter GPT integration for log explanations
-- Anomaly detection with Python + psutil
-- Prometheus + Grafana dashboard support
-- Fully automated via `systemd` timers
+- ✅ Disk usage monitoring and auto-log cleanup
+- 🚨 Memory spike detection and safe process killing
+- 🔄 Service health checks and auto-restart (e.g., cron, nginx)
+- 📩 Slack webhook integration for alerts
+- 🤖 OpenRouter GPT integration for log explanations
+- 📊 Anomaly detection with Python + psutil
+- 📈 Prometheus + Grafana dashboard support
+- 🔁 Fully automated via `systemd` timers
 
 ---
 
@@ -59,43 +59,43 @@ Edit `/etc/sentinelops/agent.conf` to adjust:
 ---
 
 ## How It Works
-- Every 5 minutes, systemd runs `sentinel.sh` and `sentinel-metrics.py`
-- These agents check for disk/memory/service anomalies
-- Auto-remediation occurs based on config
-- Alerts and explanations are sent to Slack and logs
+- ⏱ Every 5 minutes, systemd runs `sentinel.sh` and `sentinel-metrics.py`
+- 🔍 These agents check for disk/memory/service anomalies
+- 🔧 Auto-remediation occurs based on config
+- 📥 Alerts and explanations are sent to Slack and logs
 
 ---
 
 ## Monitoring Dashboard (Optional)
-- Node Exporter runs on `:9100`
-- Prometheus scrapes metrics
+- `node_exporter` runs on port `:9100`
+- Prometheus scrapes metrics using configured `prometheus.yml`
 - Grafana visualizes data using provided dashboard JSON
 
 ---
 
 ## Requirements
-- Linux (Ubuntu/Debian preferred)
-- Python3, psutil, jq
-- Internet for OpenRouter + Slack (optional)
+- 🐧 Linux (Ubuntu/Debian preferred)
+- 🐍 Python3, `psutil`, `jq`
+- 🌐 Internet access for OpenRouter + Slack integration (optional)
 
 ---
 
 ## License
-MIT
+[MIT](https://opensource.org/licenses/MIT)
 
 ---
 
 ## Contributors
-- Joshua
+- Joshua  https://github.com/joshua1787
 - Inspired by real-world SRE/DevOps best practices
 
 ---
 
 ## Coming Soon
-- Email alerting
-- GUI dashboard
-- System tray support
+- 📬 Email alerting
+- 🖥 GUI dashboard
+- 📟 System tray support
 
 ---
 
-> Built with love by SentinelOps Labs – Open-source AI-enhanced reliability tooling.
+> 🔧 Built with love by **SentinelOps Labs** – Open-source AI-enhanced reliability tooling.
